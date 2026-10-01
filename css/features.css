@@ -39,12 +39,17 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .features-subtitle {
+    text-align: left;
+  }
+}
+
 @media only screen and (min-width: 1158px) {
   .features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
   }
 }
 .features-desc {

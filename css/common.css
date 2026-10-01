@@ -66,7 +66,8 @@ address {
 }
 .logo.primary {
   color: #2e2f42;
-  margin-right: 0px;
+  padding: 16px 0;
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {

@@ -52,8 +52,6 @@
 
 .backdrop.is-open .modal {
   transform: translateX(-50%) translateY(-50%);
-  opacity: 1;
-
   transition-delay: 250ms;
 }
 
@@ -137,6 +135,8 @@
   border-color: #4d5ae5;
 }
 .modal-form-icon {
+  width: 18px;
+  height: 24px;
   position: absolute;
   top: 50%;
   left: 16px;

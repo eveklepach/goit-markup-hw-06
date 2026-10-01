@@ -22,6 +22,7 @@
   }
 }
 .team-item {
+  width: 264px;
   border-radius: 0 0 4px 4px;
   background-color: #fff;
   box-shadow:
