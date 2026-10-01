@@ -73,9 +73,13 @@ address {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
-
+@media only screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -84,9 +88,37 @@ address {
   color: #2e2f42;
   margin: 0 auto 72px;
   max-width: 218px;
+  letter-spacing: 0.02em;
 }
+
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  min-width: 320px;
+  max-width: 375px;
+
+  padding: 0 16px;
+
   margin: 0 auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+}
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
