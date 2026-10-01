@@ -31,7 +31,7 @@
   border-radius: 4px;
   width: 100%;
   min-height: 619px;
-  max-width: 408px;
+  max-width: 288px;
   padding: 72px 16px 24px;
   background-color: #fcfcfc;
   box-shadow:
@@ -49,6 +49,7 @@
     max-width: 408px;
   }
 }
+
 .backdrop.is-open .modal {
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
@@ -188,8 +189,8 @@
   color: #8e8f99;
 }
 .modal-form-checkbox {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   display: inline-flex;
   justify-content: center;
   align-items: center;

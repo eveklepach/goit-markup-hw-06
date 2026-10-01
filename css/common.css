@@ -66,8 +66,21 @@ address {
 }
 .logo.primary {
   color: #2e2f42;
-  margin-right: 76px;
+  margin-right: 0px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .logo.primary {
+    margin-right: 120px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .logo.primary {
+    margin-right: 76px;
+  }
+}
+
 .logo.secondary {
   color: #f4f4fd;
 }
@@ -92,8 +105,7 @@ address {
 }
 
 .container {
-  min-width: 320px;
-  max-width: 375px;
+  max-width: 320px;
 
   padding: 0 16px;
 

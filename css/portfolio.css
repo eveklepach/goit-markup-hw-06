@@ -4,12 +4,12 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  gap: 48px;
 }
 @media only screen and (min-width: 768px) {
   .portfolio-list {
     column-gap: 24px;
-    row-gap: 64px;
+    row-gap: 72px;
   }
 }
 @media only screen and (min-width: 1158px) {

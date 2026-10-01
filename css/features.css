@@ -11,7 +11,7 @@
   gap: 72px;
 }
 .features-item {
-  width: 288px;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   .features-list {
@@ -44,6 +44,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 }
 .features-desc {
